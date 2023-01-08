@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(7, 23, 31);  */
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategray;
+}
+.first h1{
+    color: green;
+    font-family: cursive;
+    margin-top: 30px;
+    font-size: 1.7em;
+}
+.first p{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    text-align: center;
+    line-height: 3rem;
+}
+.book{
+    padding-top: 30px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.bk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.book-img{
+    border-radius: 10px;
+    width: 40%;
+    height: 300px;
+    box-shadow: 3px 3px 3px rgba(255, 255, 0, 0.27);
+}
+.book-info{
+    width: 40%;
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 3rem;
+}
+.book button{
+    margin-top: 30px;
+    padding: 12px 25px;
+    outline: none;
+    background-color: green;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.book button:hover{
+    background-color: rgb(46, 46, 69);
+}
+.book button a{
+    text-decoration: none;
+    color: #fff;
+}
+.detail{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 900px;
+}
+.detail h2{
+    padding-top: 30px;
+    font-family: serif;
+    font-size: 2rem;
+}
+.detail p{
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.detail p span{
+    color: green;
+}
+
+.d1{
+    padding-top: 30px;
+    align-self: start;
+}
+.d1 span{
+    font-weight: 600;
+    font-size: 0.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.d1 p{
+    padding-top: 0px;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 17x;
+}
+.copy{
+    padding-bottom: 20px;
+}
+.detail span{
+    padding-top: 30px;
+    font-size: 1.5rem;
+}
+.pos{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.pos h2{
+    padding-top: 20px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ads{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    align-items: center;
+}
+.ads .pos-img{
+    box-sizing: border-box;
+    height: 400px;
+    width: 40vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(33, 76, 33);
+}
+.ads .pos-img img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 40vw;
+}
+.ads span{
+    width: 40vw;
+    line-height: 2rem;
+    font-family: serif;
+}
+.ads ul{
+    margin-left: 50px;
+    list-style: square;
+}
+.ads .ist{
+    font-weight: 500;
+}
+.ads a{
+    color: green;
+    cursor: pointer;
+}
+.monie-point{
+    padding: 10px 0px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    align-items: center;
+}
+.mp-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+}
+.mp-txt div p{
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.mp-txt p{
+    width: 70%;
+    padding-top: 20px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mp-img{
+    height: 400px;
+    width: 400px;
+}
+.mp-img  video{
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: rgb(58, 101, 58);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.author{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 101, 58);
+    color: white;
+}
+.author h2{
+    padding-bottom: 20px;
+}
+.author-profile{
+    display: flex;
+    align-items: center;
+}
+.author-pic{
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    background-image: url(/assets/IMG-20230108-WA0008.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.author-about{
+    padding-top: 10px;
+    width: 700px;
+    font-family: monospace;
+}
+.author-about a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li {
+    padding: 20px;
+    cursor: pointer;
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    font-weight: 800;
+    color: yellowgreen;
+}
+
+footer h3{
+    font-family: ;
+    color: white;
+    font-family: cursive;
+}
+footer p{
+    color: white;
+    padding-top: 10px;
+}
+@media only screen and (max-width : 480px) {
+    .first{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+    }
+    .first p{
+        font-size: 1.5rem;
+        
+    }
+    .bk{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        
+    }
+    .book-img{
+        border-radius: 10px;
+        width: 400px;
+        height: 300px;
+        box-shadow: 3px 3px 3px rgba(255, 255, 0, 0.27);
+        background-size: contain;
+        background-position: center;
+    }
+    .book-info{
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .book button{
+        border-radius: 7px;
+
+    }
+    .book button:hover{
+        background-color: darkcyan;
+        border-radius: 7px;
+    }
+    .detail{
+        padding: 0px 10px 0px 10px;
+    }
+    .detail-top{
+        padding-left: 0px;
+        align-self: start;
+        display: flex;
+        flex-direction: column;
+        justify-self: start;
+        align-items: center;
+    }
+    .detail h2{
+        align-self: start;
+        font-size: 1.2rem;
+    }
+    .detail-top p{
+        align-self: start;
+        font-size: 0.7rem;
+        padding-top: 0px;
+    }
+    .d1{
+    align-self: center;
+    justify-self: center;
+    padding-left: 10px;
+    padding-top: 20px;
+    align-self: start;
+    width: 400px;
+    }
+    .d1 span{
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .d1 p{
+        padding-top: 0px;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 17x;
+    }
+    .copy{
+        align-self: start;
+    }
+    .pos .ads{
+        flex-direction: column;
+    }
+    .ads .pos-img{
+        box-sizing: border-box;
+        height: 300px;
+        width: 80vw;
+    }
+    .ads .pos-img img{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 80vw;
+    }
+    .ads span{
+        padding-top: 20px;
+        width: 80vw;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        font-family: serif;
+    }
+    .ads span a{
+        text-decoration: none;
+    }
+    .monie-point{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mp-txt{
+        justify-content: center;
+        align-items: center;
+    }
+    .mp-txt div p{
+        font-weight: normal;
+    }
+    .author-about{
+        padding-top: 10px;
+        width: 90%;
+        align-self: center;
+        justify-self: center;
+        font-family: monospace;
+    }
+    footer{
+        padding: 10px 10px;
+    }
+    .author h2{
+        padding-bottom: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .author-pic{
+        border: 4px solid yellowgreen;
+        margin-right: 5px;
+    }
+    .name{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    footer ul{
+        padding-top: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 300px;
+    }
+    footer ul li{
+        padding: 5px 10px;
+        align-self: center;
+        justify-self: center;
+    }
+}
